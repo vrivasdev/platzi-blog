@@ -1,0 +1,15 @@
+
+body{
+	margin: 0;
+	display: block;
+}
+
+.img-centered{	
+	width: 1000px;
+	height: 560px;
+}
+
+.img-article{
+	width: 320px;
+	height: 215px;
+}
