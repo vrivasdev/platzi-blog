@@ -2,6 +2,33 @@
 body{
 	margin: 0;
 	display: block;
+	font-family: sans-serif;
+}
+
+.header{
+	background-color: #273B47;
+	position: relative;
+	height: 54px;
+	font-weight: bold;
+}
+
+.header .button{
+	right: 0;
+	position: absolute;
+}
+
+.main{
+	background-color: #EFEFEF;	
+}
+
+.search{
+	position: relative;
+	height: 60px;
+}
+
+.search input{
+	position: absolute;
+	right: 0px;
 }
 
 .img-centered{	
@@ -12,4 +39,46 @@ body{
 .img-article{
 	width: 320px;
 	height: 215px;
+}
+
+.logo{
+	display: inline-block;
+	margin-left: 8px;
+}
+
+.logo img{
+	width: 90px;
+	height: 27px;
+}
+
+.menu{
+	display: inline-block;
+	position: absolute;	
+	right: 0;
+    margin-right: 160px;    
+}
+
+.menu li{
+	display: inline-block;
+	color: white;
+	padding-right: 10px
+}
+
+.menu li span{
+	padding-left: 18px;
+}
+
+.menu a{	
+	color: white;
+	text-decoration: none;	
+}
+
+.button{
+	border-radius: 3px;
+    background-color: #FF4842;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    margin: 9px;
 }
