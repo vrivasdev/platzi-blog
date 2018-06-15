@@ -117,6 +117,10 @@ body{
     margin: 9px;
 }
 
-.center{
+.center-main, .center-articles{
 	padding: 0 15%;	
+}
+
+.center-main{
+	background-color: #EFEFEF;
 }
