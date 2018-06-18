@@ -27,7 +27,6 @@ body{
 	right: 0;
 }
 
-
 .search input[type='text']{	
 	right: 40px;
 	display: inline;
@@ -65,8 +64,17 @@ body{
 	height: 560px;
 }
 
+.articles{
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.articles figure{
+	margin: 27px 0;
+}
 .img-article{
-	width: 320px;
+	width: 317px;
 	height: 215px;
 }
 
@@ -118,7 +126,7 @@ body{
 }
 
 .center-main, .center-articles{
-	padding: 0 15%;	
+	padding: 2px 13%;	
 }
 
 .center-main{
