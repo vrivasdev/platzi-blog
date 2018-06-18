@@ -5,6 +5,10 @@ body{
 	font-family: sans-serif;
 }
 
+hr{
+	border-top: 0.1px solid #d2cbcb;
+}
+
 .header{
 	background-color: #273B47;
 	position: relative;
@@ -76,6 +80,26 @@ body{
 .img-article{
 	width: 317px;
 	height: 215px;
+}
+
+.title{
+	font-size: 20px;
+	font-weight: 700;	
+	width: 182px;
+	color: #515151;
+}
+
+.description{
+	display: flex;
+    justify-content: space-between;
+}
+.autor, .date{
+	font-size: 12px;
+    color: #515151;
+}
+
+.date{
+	margin-right: -175px;
 }
 
 .logo{
