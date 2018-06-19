@@ -78,14 +78,28 @@ hr{
 	position: absolute;
 }
 
+.slider:hover .img-centered{
+	transform: scale(1.03);
+	transition: all 0.5s;
+}
+
+.slider:hover .selected{
+	opacity: 0.8;
+	transform: rotateY(0deg);
+	transition-duration: 1.5s;
+	transition-delay: 0.5s;
+
+}
+
 .selected{	
 	width: 526px;
 	position: absolute;
-	background-color: #f0f0f0;
-    opacity: 0.8;
+	background-color: #f0f0f0;    
     bottom: 35px;
     margin-left: 21px;
-    padding: 20px;
+    padding: 20px;   
+    opacity:0;
+	transform: rotateY(270deg);	
 }
 
 .selected .date{
