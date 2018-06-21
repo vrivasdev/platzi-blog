@@ -176,8 +176,7 @@ hr{
 
 .menu li{
 	display: inline-block;
-	color: white;
-	padding-right: 10px
+	color: white;	
 }
 
 .menu li span{
@@ -192,6 +191,16 @@ hr{
 
 .menu a:hover{
 	border-top: #9ACA3F solid;
+}
+
+.menu li:after{
+	content: '|';
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.menu li:last-child:after{
+	display: none;
 }
 
 .button{
