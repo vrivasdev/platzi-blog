@@ -237,12 +237,10 @@ hr{
 
 .button.red {
 	background: #ff4842;
-	/*border-color: yellow;*/
 }
 
 .button.green {
 	background: #7dcd40;
-	/*border-color: purple;*/
 }
 
 .center-main, .center-articles{
@@ -254,23 +252,40 @@ hr{
 }
 
 .footer{
-	padding: 39px 25%;
 	display: flex;
-    justify-content: space-around;
+	justify-content: center;
+	align-items: center;
     font-size: 15px;
-    font-weight: 700;    
     color: #737171;
+    margin-bottom: 70px;
 }
 
-.footer input{	
-	color: #515257;
-    font-weight: bolder;
-    background-color: #EAEAEA;
+.footer ul{	
+	list-style: none;
+	display: flex; 
+	margin: 0;  
+	padding: 0;
+	margin-left: 10px;
+}
+
+.footer li{	
+	background: #EAEAEA;	
+	color: #515257;            
     border: 1px solid #d2d2d2;
     border-radius: 2px;
-    padding: 6px 11px;
+    padding: 0 10px;
+    font-weight: 700;
+    margin: 0 10px;
 }
 
-.footer span{
-	padding-top: 6px;
+.footer li > a{	
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	padding: 7px 5px;
+}
+
+.footer li.page-selected{
+	border-color: transparent;
+	background: white;
 }
